@@ -1,0 +1,128 @@
+body{
+    background-image: url("top.jpg");
+    background-size: cover;
+}
+.logo{
+    float:left;
+}
+.logo img{
+    height: 50px;
+    margin-top:10px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+.logo p{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:5px;
+    text-align: center;
+    width:100px;
+    opacity: 0.8;
+}
+.texts{
+    float:right;
+    border-bottom:solid 1px rgba(255, 255, 255, 0.8);
+    margin-right:20px;
+}
+.vision{
+    float:left;
+}
+.introduction{
+    float:left;
+}
+.works{
+    float:left;
+}
+.contact{
+    float:left;
+    margin-right: 600px;
+}
+
+.text{
+    width: 180px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-align: center;
+    opacity: 0.8;
+    background-color:rgba(255, 255, 255, 0);
+    transition: background-color 0.5s;
+}
+.text:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.text a{
+    display:block;
+}
+.texts a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+  }
+.contents{
+    float:left;
+    margin-top:70px;
+    text-align: center;
+    width: 100%;
+}
+.contents h1{
+    color:white;
+    font-weight: normal;
+    font-size:40px
+}
+.english{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    margin-top: 0px;
+    margin-bottom:75px;
+    letter-spacing: 0.1em;
+}
+.words p{
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing: 0.12em;
+}
+.above{
+    margin-bottom:0px;
+}
+.bottom{
+    margin-top:0px;
+    margin-bottom:35px
+}
+.contents a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 0.12em;
+    margin-bottom:120px;
+    font-weight:bold;
+}
+.contents a::after {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1.2px;
+    background: #ffffff;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
+}
+.contents a:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+footer{
+    float:left;
+    background-color:white;
+    width: 100%;
+    height:85px;
+    margin:0px;
+    padding:0px;
+}
